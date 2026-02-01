@@ -1,148 +1,175 @@
 # Job_Market_analysis
 
-'''📊 Job Market & Salary Analysis using Python'''
-📌 Project Overview
+**📊 Job Market & Salary Analysis using Python**
+
+**📌 Project Overview**
 
 This project performs a comprehensive exploratory data analysis (EDA) on a real-world job market salary dataset using Python.
 The goal is to uncover meaningful insights related to job demand, salary trends, experience levels, remote work, company size, and employment types through interactive visualizations.
 
-🎯 Objectives
 
-Analyze job demand across roles and locations
+**🎯 Objectives**
 
-Study salary growth by experience level
+--Analyze job demand across roles and locations
 
-Understand the impact of remote work and employment type on salary
+--Study salary growth by experience level
 
-Explore salary distribution and variability
+--Understand the impact of remote work and employment type on salary
 
-Identify high-paying roles and trends over time
+--Explore salary distribution and variability
 
-🗂 Dataset Information
+--Identify high-paying roles and trends over time
 
-File: salaries_1.csv
 
-Records: 6,000+ job entries
 
-Type: Real-world job market dataset
+**🗂 Dataset Information**
 
-Key Columns Used:
+--File: salaries_1.csv
 
-work_year – Year of job record
+--Records: 6,000+ job entries
 
-experience_level – EN, MI, SE, EX
+--Type: Real-world job market dataset
 
-employment_type – FT, PT, CT, FL
+*Key Columns Used:*
 
-job_title – Job role
+--work_year – Year of job record
 
-salary_in_usd – Annual salary
+--experience_level – EN, MI, SE, EX
 
-company_location – Country of company
+--employment_type – FT, PT, CT, FL
 
-remote_ratio – On-site / Hybrid / Remote
+--job_title – Job role
 
-company_size – Small, Medium, Large
+--salary_in_usd – Annual salary
 
-🛠️ Technologies Used
-Python Libraries
+--company_location – Country of company
 
-pandas – Data cleaning & analysis
+--remote_ratio – On-site / Hybrid / Remote
 
-matplotlib – Data visualization
+--company_size – Small, Medium, Large
 
-mplcursors – Interactive hover tooltips
 
-numpy – Numerical operations
 
-📈 Analysis & Visualizations
-🔹 Job Market Analysis
+**🛠️ Technologies Used**
 
-Top 10 most demanded job roles
+*Python Libraries*
 
-Job distribution by company location
+--pandas – Data cleaning & analysis
 
-Experience level market share
+--matplotlib – Data visualization
 
-🔹 Salary Analysis
+--mplcursors – Interactive hover tooltips
 
-Average salary by experience level
+--numpy – Numerical operations
 
-Salary trend over years
 
-Salary comparison by:
 
-Company size
+**📈 Analysis & Visualizations**
 
-Employment type
+*🔹 Job Market Analysis*
 
-Remote ratio
+--Top 10 most demanded job roles
 
-Location
+--Job distribution by company location
 
-🔹 Advanced Analysis
+--Experience level market share
 
-Salary distribution using box plots
 
-Salary variability (standard deviation) by experience level
+*🔹 Salary Analysis*
 
-Company size vs experience salary comparison
+--Average salary by experience level
 
-Remote job availability vs compensation
+--Salary trend over years
 
-🧠 Key Insights
+--Salary comparison by:
 
-Senior and executive roles earn significantly higher salaries
+--Company size
 
-Salary growth accelerates after mid-level experience
+--Employment type
 
-Remote jobs often offer competitive or higher pay than on-site roles
+--Remote ratio
 
-Large companies generally provide better compensation
+--Location
 
-Salary variability increases at higher experience levels
 
-🚀 How to Run the Project
-1️⃣ Install Required Libraries
+*🔹 Advanced Analysis*
+
+--Salary distribution using box plots
+
+--Salary variability (standard deviation) by experience level
+
+--Company size vs experience salary comparison
+
+--Remote job availability vs compensation
+
+
+**🧠 Key Insights**
+
+--Senior and executive roles earn significantly higher salaries
+
+--Salary growth accelerates after mid-level experience
+
+--Remote jobs often offer competitive or higher pay than on-site roles
+
+--Large companies generally provide better compensation
+
+--Salary variability increases at higher experience levels
+
+
+
+**🚀 How to Run the Project**
+
+
+*1️⃣ Install Required Libraries*
+
 pip install pandas matplotlib mplcursors numpy
 
-2️⃣ Run the Python Script
+*2️⃣ Run the Python Script*
+
 python job_market_analysis.py
 
 
-⚠️ Ensure the dataset path inside the script correctly points to:
+**⚠️ Ensure the dataset path inside the script correctly points to:**
 
 salaries_1.csv
 
-📁 Project Structure
+
+**📁 Project Structure**
+
+
 Job_Market_Analysis/
 │
 ├── salaries_1.csv
 ├── job_market_analysis.py
+├── requirements.txt
 └── README.md
 
-🏆 Resume-Ready Description
 
-Job Market & Salary Analysis | Python
+**🏆 Resume-Ready Description**
 
-Analyzed 6,000+ real-world job records using Python
+--Job Market & Salary Analysis | Python
 
-Created interactive data visualizations with hover-based insights
+--Analyzed 6,000+ real-world job records using Python
 
-Identified job demand trends, salary growth patterns, and compensation drivers
+--Created interactive data visualizations with hover-based insights
 
-🔮 Future Enhancements
+--Identified job demand trends, salary growth patterns, and compensation drivers
 
-Skill-based analysis using NLP
 
-Salary prediction using regression models
+**🔮 Future Enhancements**
 
-Dashboard deployment using Streamlit
+--Skill-based analysis using NLP
 
-Power BI dashboard integration
+--Salary prediction using regression models
 
-👤 Author
+--Dashboard deployment using Streamlit
 
-Snehasish Das
-Python Developer | Data Analyst
-Skills: Python, Pandas, Matplotlib, Data Analysis, Data Visualization
+--Power BI dashboard integration
+
+
+
+**👤 Author**
+
+**Snehasish Das**
+
+*Python Developer | Data Analyst*
